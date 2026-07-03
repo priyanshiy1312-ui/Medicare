@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hospital Website</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+
+<body>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+
+        <img src="logo.png" alt="Hospital Logo" class="logo-img">
+
+        <span class="hospital-name ms-2">
+          Medicare
+        </span>
+
+      </a>
+
+      </button>
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#doctor">Doctors</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="#FAQ">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+
+        </ul>
+        <div class="d-flex">
+
+          <button class="btn btn-primary appointment-btn" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+
+            📅 Book Appointment
+
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- home -->
+  <div id="home">
+    
+    </section>
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="hospital.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="ai-assistant">
+
+    <div class="ai-header">
+        🤖 AI Health Assistant
+    </div>
+
+    <div class="ai-body">
+        <p>Hello! 👋</p>
+        <p>How can I help you today?</p>
+    </div>
+
+    <div class="ai-footer">
+        <input type="text" placeholder="Ask me anything...">
+        <button>➤</button>
+    </div>
+
+</div>
+        <div class="carousel-item">
+          <img src="hospital2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="hospital3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- about-section -->
+  <div class="about-section py-5" id="about">
+
+    <div class="container">
+
+      <h2 class="text-center mb-5">About Us</h2>
+
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="expert.doc.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">👨‍⚕️ Expert Doctors</h5>
+              <p class="card-text">
+                Our highly qualified specialists deliver personalized treatment using years of medical expertise and
+                compassionate care.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="emergency-care.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">🏥 Emergency Care</h5>
+              <p class="card-text">
+                24/7 emergency services with a dedicated medical team ready to respond whenever you need us.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="advance-tech.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">🔬 Advanced Technology</h5>
+              <p class="card-text">
+                Equipped with modern medical technology to ensure accurate diagnosis and effective treatment.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="care1.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">❤️ Patient Care</h5>
+              <p class="card-text">
+                Your comfort, safety, and well-being are our highest priorities throughout every stage of your
+                healthcare journey.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- services-section -->
+  <div class="service-section py-5" id="service">
+
+    <div class="container">
+
+      <h2 class="text-center mb-5">Our Services</h2>
+
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">❤️ Cardiology</h5>
+              <p class="card-text">
+                Advanced diagnosis and treatment for heart diseases with experienced cardiologists and modern cardiac
+                care facilities.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">🧠 Neurology</h5>
+              <p class="card-text">
+                Specialized care for brain, spine, and nervous system disorders using advanced medical techniques.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">🦴 Orthopedics</h5>
+              <p class="card-text">
+                Comprehensive treatment for bones, joints, muscles, and sports injuries to restore mobility and
+                strength.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">🩺 General Medicine</h5>
+              <p class="card-text">
+                Complete healthcare services including routine check-ups, diagnosis, and treatment for common illnesses.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5-->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">🧪 Diagnostic Laboratory</h5>
+              <p class="card-text">
+                Accurate laboratory testing and health screenings with fast and reliable results using advanced
+                equipment.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6-->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">🚑 Emergency Services</h5>
+              <p class="card-text">
+                24/7 emergency care with rapid response teams, ambulances, and critical care facilities for urgent
+                medical needs.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">👶 Pediatrics</h5>
+              <p class="card-text">
+                Specialized healthcare services for infants, children, and adolescents in a friendly and caring
+                environment.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8-->
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">💊 Pharmacy</h5>
+              <p class="card-text">
+                A fully stocked pharmacy providing genuine medicines and expert pharmaceutical guidance around the
+                clock.
+              </p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!--================ Explore Nearby Hospitals =================-->
+
+  <section id="explore-hospitals" class="py-5">
+
+    <div class="container">
+
+      <div class="text-center mb-5">
+
+        <h2>Explore Nearby Hospitals</h2>
+
+        <p class="text-muted">
+          Find the best hospitals in Rajasthan according to your healthcare needs.
+        </p>
+
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Hospital 1 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card hospital-card">
+
+            <div class="card-body">
+
+              <h4>Eternal Hospital (EHCC)</h4>
+
+              <p><strong>📍 Jaipur, Rajasthan</strong></p>
+
+              <p>Speciality : Cardiology, Neurology</p>
+
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ehccModal">
+
+                Quick View
+
+              </button>
+
+              <a href="https://www.eternalheart.org" target="_blank" class="btn btn-outline-primary">
+
+                View
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Hospital 2 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card hospital-card">
+
+            <div class="card-body">
+
+              <h4>Fortis Escorts Hospital</h4>
+
+              <p><strong>📍 Jaipur, Rajasthan</strong></p>
+
+              <p>Speciality : Cardiology</p>
+
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fortisModal">
+
+                Quick View
+
+              </button>
+
+              <a href="https://www.fortishealthcare.com" target="_blank" class="btn btn-outline-primary">
+
+                View
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Hospital 3 -->
+
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card hospital-card">
+
+            <div class="card-body">
+
+              <h4>CK Birla Hospital</h4>
+
+              <p><strong>📍 Jaipur, Rajasthan</strong></p>
+
+              <p>Speciality : Multi Speciality</p>
+
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ckModal">
+
+                Quick View
+
+              </button>
+
+              <a href="https://www.ckbhospital.com" target="_blank" class="btn btn-outline-primary">
+
+                View
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- doctors-section -->
+  <!--==================== OUR DOCTORS ====================-->
+
+  <section class="py-5" id="doctor">
+
+    <div class="container">
+
+      <div class="text-center mb-5">
+
+        <span class="badge bg-primary px-3 py-2">Our Doctors</span>
+
+        <h2 class="mt-3">Meet Our Medical Experts</h2>
+
+        <p class="text-muted">
+          Our experienced team of specialists is committed to providing exceptional healthcare with compassion and
+          expertise.
+        </p>
+
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Doctor 1 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="men2.png" class="card-img-top" alt="Doctor Image">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Dr. Rahul Sharma</h5>
+
+              <h6 class="text-primary mb-3">
+                Cardiologist
+              </h6>
+
+              <p class="card-text">
+                Expert in diagnosing and treating heart diseases with over 15 years of experience.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                View Profile
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Doctor 2 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="women1.0.png" class="card-img-top" alt="Doctor Image">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Dr. Priya Mehta</h5>
+
+              <h6 class="text-primary mb-3">
+                Neurologist
+              </h6>
+
+              <p class="card-text">
+                Specializing in brain and nervous system disorders with advanced treatment methods.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                View Profile
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Doctor 3 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="men1.0.png" class="card-img-top" alt="Doctor Image">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Dr. Ankit Verma</h5>
+
+              <h6 class="text-primary mb-3">
+                Orthopedic Surgeon
+              </h6>
+
+              <p class="card-text">
+                Providing expert care for bone, joint, and sports-related injuries using modern techniques.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                View Profile
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Doctor 4 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="women2.png" class="card-img-top" alt="Doctor Image">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Dr. Sneha Kapoor</h5>
+
+              <h6 class="text-primary mb-3">
+                Pediatrician
+              </h6>
+
+              <p class="card-text">
+                Dedicated to providing compassionate healthcare for infants, children, and adolescents.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                View Profile
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Doctor 5 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="men3.0.png" class="card-img-top" alt="Doctor Image">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Dr. Arjun Singh</h5>
+
+              <h6 class="text-primary mb-3">
+                General Physician
+              </h6>
+
+              <p class="card-text">
+                Offering complete healthcare, preventive care, and treatment for common medical conditions.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                View Profile
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Doctor 6 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="women3.png" class="card-img-top" alt="Doctor Image">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Dr. Neha Gupta</h5>
+
+              <h6 class="text-primary mb-3">
+                Dermatologist
+              </h6>
+
+              <p class="card-text">
+                Providing advanced skin, hair, and cosmetic treatments with personalized patient care.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                View Profile
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--==================== PATIENT TESTIMONIALS ====================-->
+
+  <section class="py-5 bg-light" id="testimonials">
+
+    <div class="container">
+
+      <div class="text-center mb-5">
+
+        <span class="badge bg-primary px-3 py-2">
+          Testimonials
+        </span>
+
+        <h2 class="mt-3">What Our Patients Say</h2>
+
+        <p class="text-muted">
+          Hear from our patients about their experiences and the care they received at Medicare Hospital.
+        </p>
+
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Testimonial 1 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="patient3.png" class="card-img-top rounded-circle mx-auto mt-4" alt="Patient Image"
+              style="width:120px; height:120px; object-fit:cover;">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Ayush Meena</h5>
+
+              <p class="text-warning fs-5">
+                ⭐⭐⭐⭐⭐
+              </p>
+
+              <p class="card-text">
+                "The doctors were very caring and professional. The treatment was excellent, and the staff made me feel
+                comfortable throughout my stay."
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="patient1.png" class="card-img-top rounded-circle mx-auto mt-4" alt="Patient Image"
+              style="width:120px; height:120px; object-fit:cover;">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Riya Goyal</h5>
+
+              <p class="text-warning fs-5">
+                ⭐⭐⭐⭐⭐
+              </p>
+
+              <p class="card-text">
+                "The emergency department responded quickly, and the doctors explained every step of my treatment
+                clearly. Highly recommended!"
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card h-100 shadow border-0">
+
+            <img src="patient2.0.png" class="card-img-top rounded-circle mx-auto mt-4" alt="Patient Image"
+              style="width:120px; height:120px; object-fit:cover;">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title">simran Verma</h5>
+
+              <p class="text-warning fs-5">
+                ⭐⭐⭐⭐⭐
+              </p>
+
+              <p class="card-text">
+                "Excellent facilities, friendly staff, and experienced doctors. I recovered much faster thanks to the
+                outstanding care I received."
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- faq-section -->
+  <!--==================== FAQ SECTION ====================-->
+
+  <section class="faq py-5" id="FAQ">
+
+    <div class="container">
+
+      <div class="text-center mb-5">
+
+        <span class="badge bg-primary px-3 py-2">
+          FAQs
+        </span>
+
+        <h2 class="mt-3">Frequently Asked Questions</h2>
+
+        <p class="text-muted">
+          Find answers to the most common questions about our hospital and services.
+        </p>
+
+      </div>
+
+      <div class="accordion" id="faqAccordion">
+
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+
+              How can I book an appointment?
+
+            </button>
+
+          </h2>
+
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              You can book an appointment online through our website, call our reception, or visit the hospital
+              directly.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+
+              Is emergency service available 24/7?
+
+            </button>
+
+          </h2>
+
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              Yes, our emergency department operates 24 hours a day, 7 days a week with experienced doctors and staff.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+
+              Do you provide online consultation?
+
+            </button>
+
+          </h2>
+
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              Yes, you can schedule an online consultation with our specialists through our appointment system.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+
+              What insurance plans do you accept?
+
+            </button>
+
+          </h2>
+
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              We accept most major health insurance providers. Please contact our help desk for specific insurance
+              details.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+
+              How can I access my medical reports?
+
+            </button>
+
+          </h2>
+
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              Patients can collect reports from the hospital or download them through our online patient portal.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+
+              Can I cancel or reschedule my appointment?
+
+            </button>
+
+          </h2>
+
+          <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              Yes. You can cancel or reschedule your appointment by calling our reception or using the appointment
+              portal.
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--==================== CONTACT SECTION ====================-->
+
+  <section class="py-5" id="contact">
+
+    <div class="container">
+
+      <div class="text-center mb-5">
+
+        <span class="badge bg-primary px-3 py-2">
+          Contact Us
+        </span>
+
+        <h2 class="mt-3">Get In Touch</h2>
+
+        <p class="text-muted">
+          We'd love to hear from you. Feel free to contact us for appointments, medical inquiries, or emergency
+          assistance.
+        </p>
+
+      </div>
+
+      <div class="row g-5">
+
+        <!-- Contact Information -->
+
+        <div class="col-lg-5">
+
+          <div class="card shadow border-0 p-4 h-100">
+
+            <h4 class="mb-4">Contact Information</h4>
+
+            <p>
+              <i class="bi bi-geo-alt-fill text-primary"></i>
+              <strong> Address:</strong><br>
+              Medicare Hospital,<br>
+              Jaipur, Rajasthan, India
+            </p>
+
+            <p>
+              <i class="bi bi-telephone-fill text-primary"></i>
+              <strong> Phone:</strong><br>
+              +91 98765 43210
+            </p>
+
+            <p>
+              <i class="bi bi-envelope-fill text-primary"></i>
+              <strong> Email:</strong><br>
+              info@medicarehospital.com
+            </p>
+
+            <p>
+              <i class="bi bi-clock-fill text-primary"></i>
+              <strong> Working Hours:</strong><br>
+              Monday - Sunday<br>
+              Open 24 × 7
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Contact Form -->
+
+        <div class="col-lg-7">
+
+          <div class="card shadow border-0 p-4">
+
+            <form>
+
+              <div class="row">
+
+                <div class="col-md-6 mb-3">
+
+                  <input type="text" class="form-control" placeholder="Your Name" required>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                  <input type="email" class="form-control" placeholder="Your Email" required>
+
+                </div>
+
+              </div>
+
+              <div class="mb-3">
+
+                <input type="text" class="form-control" placeholder="Subject">
+
+              </div>
+
+              <div class="mb-3">
+
+                <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+
+              </div>
+
+              <button class="btn btn-primary">
+
+                Send Message
+
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--==================== FOOTER ====================-->
+
+  <footer class="footer pt-5 pb-3">
+
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <!-- Hospital Info -->
+        <div class="col-lg-4 col-md-6">
+
+          <h3 class="text-white fw-bold">
+            <i class="bi bi-hospital-fill"></i>
+            Medicare Hospital
+          </h3>
+
+          <p class="mt-3">
+            We are dedicated to providing world-class healthcare with
+            compassion, innovation, and excellence. Our mission is to
+            improve lives through quality medical services.
+          </p>
+
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6">
+
+          <h5 class="text-white">Quick Links</h5>
+
+          <ul class="list-unstyled">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#services">Services</a></li>
+
+            <li><a href="#doctors">Doctors</a></li>
+
+            <li><a href="#faq">FAQs</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- Services -->
+        <div class="col-lg-3 col-md-6">
+
+          <h5 class="text-white">Our Services</h5>
+
+          <ul class="list-unstyled">
+
+            <li>❤️ Cardiology</li>
+
+            <li>🧠 Neurology</li>
+
+            <li>🦴 Orthopedics</li>
+
+            <li>👶 Pediatrics</li>
+
+            <li>🚑 Emergency Care</li>
+
+            <li>💊 Pharmacy</li>
+
+          </ul>
+
+        </div>
+
+        <!-- Contact -->
+        <div class="col-lg-3 col-md-6">
+
+          <h5 class="text-white">Contact Us</h5>
+
+          <p>
+            <i class="bi bi-geo-alt-fill"></i>
+            Jaipur, Rajasthan
+          </p>
+
+          <p>
+            <i class="bi bi-telephone-fill"></i>
+            +91 98765 43210
+          </p>
+
+          <p>
+            <i class="bi bi-envelope-fill"></i>
+            info@medicarehospital.com
+          </p>
+
+          <div class="social-icons mt-4">
+
+            <a href="#"><i class="bi bi-facebook"></i></a>
+
+            <a href="#"><i class="bi bi-instagram"></i></a>
+
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+
+            <a href="#"><i class="bi bi-youtube"></i></a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="text-center">
+
+        <p class="mb-0">
+
+          © 2026 <strong>Medicare Hospital</strong>. All Rights Reserved.
+
+        </p>
+
+        <small>
+          Designed with ❤️ using Bootstrap 5
+        </small>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <!--==================== THEME TOGGLE ====================-->
+
+  <button id="themeToggle" class="theme-toggle">
+
+    <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+
+  </button>
+  <!--================ APPOINTMENT MODAL =================-->
+
+  <div class="modal fade" id="appointmentModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h3 class="modal-title text-primary">
+            Book an Appointment
+          </h3>
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal">
+          </button>
+
+        </div>
+
+        <div class="modal-body">
+
+          <form id="appointmentForm">
+
+            <div class="row">
+
+              <div class="col-md-6 mb-3">
+
+                <label class="form-label">
+                  Full Name
+                </label>
+
+                <input type="text" class="form-control" placeholder="Enter your name" required>
+
+              </div>
+
+              <div class="col-md-6 mb-3">
+
+                <label class="form-label">
+                  Phone Number
+                </label>
+
+                <input type="tel" class="form-control" placeholder="Enter phone number" required>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-6 mb-3">
+
+                <label class="form-label">
+                  Email
+                </label>
+
+                <input type="email" class="form-control" placeholder="Enter email">
+
+              </div>
+
+              <div class="col-md-6 mb-3">
+
+                <label class="form-label">
+                  Department
+                </label>
+
+                <select class="form-select">
+
+                  <option>Select Department</option>
+
+                  <option>Cardiology</option>
+
+                  <option>Neurology</option>
+
+                  <option>Orthopedics</option>
+
+                  <option>Pediatrics</option>
+
+                  <option>Dermatology</option>
+
+                </select>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-6 mb-3">
+
+                <label class="form-label">
+                  Preferred Date
+                </label>
+
+                <input type="date" class="form-control" required>
+
+              </div>
+
+              <div class="col-md-6 mb-3">
+
+                <label class="form-label">
+                  Preferred Time
+                </label>
+
+                <input type="time" class="form-control" required>
+
+              </div>
+
+            </div>
+
+            <div class="mb-3">
+
+              <label class="form-label">
+                Describe Your Problem
+              </label>
+
+              <textarea rows="4" class="form-control" placeholder="Write your health concern..."></textarea>
+
+            </div>
+
+            <div class="text-center">
+
+              <button type="submit" class="btn btn-primary px-5">
+
+                Confirm Appointment
+
+              </button>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="modal fade" id="ehccModal">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h4 class="modal-title">Eternal Hospital</h4>
+
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>
+
+            <strong>Complete Address</strong><br><br>
+
+            3A, Jagatpura Road,<br>
+
+            Near Jawahar Circle,<br>
+
+            Jaipur,<br>
+
+            Rajasthan - 302017
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="modal fade" id="fortisModal">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h4 class="modal-title">Fortis Escorts Hospital</h4>
+
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>
+
+            <strong>Complete Address</strong><br><br>
+
+            Jawahar Lal Nehru Marg,<br>
+
+            Malviya Nagar,<br>
+
+            Jaipur,<br>
+
+            Rajasthan - 302017
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="modal fade" id="ckModal">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h4 class="modal-title">CK Birla Hospital</h4>
+
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>
+
+            <strong>Complete Address</strong><br><br>
+
+            Shanti Path,<br>
+
+            Near Jawahar Circle,<br>
+
+            Jaipur,<br>
+
+            Rajasthan - 302004
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
